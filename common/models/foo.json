@@ -1,0 +1,12 @@
+{
+  "name": "Foo",
+  "strict": "validate",
+  "options": { "validateUpsert": true },
+  "properties": {
+    "name": {
+      "type": "String",
+      "min": 5
+    }
+  }
+}
+
